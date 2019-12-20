@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.login.LoginController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="800.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../Resources/images/fondo.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="504.0" layoutY="150.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgba(63, 136, 191, 0.55);">
+         <children>
+            <Text layoutX="62.0" layoutY="47.0" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" text="USER" textAlignment="CENTER">
+               <font>
+                  <Font name="Tahoma Bold" size="26.0" />
+               </font></Text>
+            <TextField fx:id="txtUser" layoutX="4.0" layoutY="52.0" opacity="0.85" prefHeight="39.0" prefWidth="190.0" />
+            <Text layoutX="23.0" layoutY="126.0" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD" textAlignment="CENTER">
+               <font>
+                  <Font name="Tahoma Bold" size="26.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="txtPass" layoutX="9.0" layoutY="131.0" opacity="0.85" prefHeight="39.0" prefWidth="107.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </AnchorPane>
+      <ImageView fitHeight="444.0" fitWidth="461.0" layoutX="-26.0" layoutY="33.0" opacity="0.9" pickOnBounds="true">
+         <image>
+            <Image url="@../Resources/images/Logo-web.gif" />
+         </image></ImageView>
+      <Button fx:id="btnOk" layoutX="548.0" layoutY="372.0" mnemonicParsing="false" onAction="#verifyUserData" opacity="0.9" style="-fx-background-color: rgba(63, 136, 191, 0.55);" text="LOGIN" textAlignment="CENTER">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="txtMsgError" layoutX="425.0" layoutY="103.0" text="Usuario o Contraseña erronea">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+
+</AnchorPane>
