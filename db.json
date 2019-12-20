@@ -1,0 +1,51 @@
+[{
+  "id": 1,
+  "user": "alejandro.ponte",
+  "pass": "Al3j2ndr20",
+  "tipo": "paciente",
+    "Nombre": "Alejandro Ponte",
+    "email": "alejandro.ponte@mail.com",
+    "fnacimiento": "29/07/1947",
+    "telefono": "687767887"
+  },
+{
+  "id": 2,
+  "user": "ahinoa.fernandez",
+  "pass": "ak1noH2",
+  "tipo": "medico",
+    "Nombre": "Ahinoa Fernandez",
+    "email": "ahinoa.fernandez@mail.com",
+    "fnacimiento": "29/07/1980",
+    "telefono": "722597671"
+  },
+ {
+   "id": 3,
+  "user": "miguel.fernandez",
+  "pass": "ak1noH2",
+  "tipo": "tutor",
+    "Nombre": "Miguel Fernandez",
+    "email": "miguel.fernandez@mail.com",
+    "fnacimiento": "16/11/1979",
+    "telefono": "687767387"
+  },
+{
+  "id": 4,
+  "user": "aixa.martinez",
+  "pass": "Sh3r3z2d3",
+  "tipo": "paciente",
+    "Nombre": "Aixa Martinez",
+    "email": "aixa.martinez@mail.com",
+    "fnacimiento": "29/07/1980",
+    "telefono": "722597671"
+  },
+ {
+  "id": 5,
+  "user": "enrique.puig",
+  "pass": "@muntCh3",
+  "tipo": "tutor",
+    "Nombre": "Enrique Puig",
+    "email": "enrique.puig@mail.com",
+    "fnacimiento": "01/01/1971",
+    "telefono": "722397671"
+ }
+]
